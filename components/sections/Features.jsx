@@ -38,13 +38,13 @@ const Features = () => {
           onClick={() => {
             slide.slidePrev();
           }}
-          className="w-20 h-10 text-[#C6C6C7] absolute -left-16 top-80"
+          className="w-20 h-10 hover:text-[#0045A6] text-[#C6C6C7] absolute -left-16 top-80"
         />
         <SlArrowRight
           onClick={() => {
             slide.slideNext();
           }}
-          className="w-20 h-10 text-[#C6C6C7] absolute -right-16 top-80"
+          className="w-20 h-10 text-[#C6C6C7] hover:text-[#0045A6] absolute -right-16 top-80"
         />
 
         <Swiper
