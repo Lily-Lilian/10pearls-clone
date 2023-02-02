@@ -56,7 +56,7 @@ const Hero = () => {
             </p>
           </div>
           <button className="py-4 px-9 hover:bg-[#0045A6] hover:text-white text-[#0045A6] border-[#0045A6] border">
-            let's build something
+            lets build something
           </button>
         </div>
       </div>

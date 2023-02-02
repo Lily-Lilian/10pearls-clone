@@ -25,14 +25,14 @@ const Navbar = () => {
     <div className="fixed top-0 w-full bg-white z-20">
       <nav className="flex max-w-[1240px] mx-auto justify-between items-center py-4 ">
         <div className="w-40">
-          <Image src={Logo} />
+          <Image src={Logo} alt="logo" />
         </div>
         <div className="flex gap-12 items-center">
           {navLinks.map((link, index) => (
             <Link href={`/${link.page}`}>
               <div
-                className="text-base"
                 key={index}
+                className="text-base"
                 onMouseOver={toggleVisibility}
                 onMouseOut={toggleVisibility}
               >

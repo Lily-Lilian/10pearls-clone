@@ -49,8 +49,8 @@ const Helpers = () => {
           {images.map((image, index) => (
             <SwiperSlide>
               <img
-                className="max-w-[353px]"
                 key={index}
+                className="max-w-[353px]"
                 src={image.src}
                 alt={image.alt}
               />
