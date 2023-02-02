@@ -47,13 +47,8 @@ const Helpers = () => {
           className="flex gap-16 items-center"
         >
           {images.map((image, index) => (
-            <SwiperSlide>
-              <img
-                key={index}
-                className="max-w-[353px]"
-                src={image.src}
-                alt={image.alt}
-              />
+            <SwiperSlide key={index}>
+              <img className="max-w-[353px]" src={image.src} alt={image.alt} />
             </SwiperSlide>
           ))}
         </Swiper>

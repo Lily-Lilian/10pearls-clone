@@ -29,9 +29,8 @@ const Navbar = () => {
         </div>
         <div className="flex gap-12 items-center">
           {navLinks.map((link, index) => (
-            <Link href={`/${link.page}`}>
+            <Link key={index} href={`/${link.page}`}>
               <div
-                key={index}
                 className="text-base"
                 onMouseOver={toggleVisibility}
                 onMouseOut={toggleVisibility}
